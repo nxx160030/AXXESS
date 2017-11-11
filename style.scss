@@ -1,0 +1,35 @@
+
+$error-red: red;
+$label-gray: gray;
+$btn-color:white;
+$btn-background-color: green;
+
+@mixin text($color, $background-color) {
+  font-family: "Times New Roman", Times, serif;
+  color: $color;
+  background-color: $background-color;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.error {
+  @include text($error-red,white);
+}
+
+.label {
+  @include text($label-gray,white);
+}
+
+.button {
+  @include text($btn-color,$btn-background-color);
+}
+
+.input {
+  height: 20px;
+}

@@ -1,0 +1,43 @@
+.error {
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+  background-color: white;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+.label {
+  font-family: "Times New Roman", Times, serif;
+  color: gray;
+  background-color: white;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+.button {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+.input {
+  height: 20px; }
+
+/*# sourceMappingURL=style.css.map */
