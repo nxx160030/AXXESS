@@ -4,7 +4,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
         var count = 0;
-        var id;
+        var interval;
     </script>
     <script type="text/javascript" src="action.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -16,10 +16,12 @@
     <div>
         Input Number:
         <input type="number" id="number">
-        <button type="button" id="counter" onclick="counter()">Start</button>
-        <br><br>
+        <br>
+        <button type="button" id="start" onclick="counter()">Start</button>
         <button type="button" id="reset" onclick="reset()">Reset</button>
         <button type="button" id="restart" onclick="restart()">Restart</button>
+        <br>
+        Counter: <label id="counter"></label>
     </div>
     <div id="fingers">
         Fingers
