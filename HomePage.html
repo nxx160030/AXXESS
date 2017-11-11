@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var count = 0;
+        var id;
+    </script>
+    <script type="text/javascript" src="action.js"></script>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Nana Xu's Fingers&Toes</title>
+
 </head>
 <body>
     <div>
-        <form>
-            Input Number:
-            <input type="number" name="number">
-            <input type="button" name="counter" value="Start">
-            <br>
-            <input type="button" name="reset" value="Reset">
-            <input type="button" name="restart" value="Restart">
-
-        </form>
+        Input Number:
+        <input type="number" id="number">
+        <button type="button" id="counter" onclick="counter()">Start</button>
+        <br><br>
+        <button type="button" id="reset" onclick="reset()">Reset</button>
+        <button type="button" id="restart" onclick="restart()">Restart</button>
     </div>
-
-    <div name="fingers">
+    <div id="fingers">
         Fingers
     </div>
-
-    <div name="toes">
+    <div id="toes">
         Toes
     </div>
 </body>
